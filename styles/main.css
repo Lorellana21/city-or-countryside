@@ -1,74 +1,75 @@
 body {
-  
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-  }
-  .main {
-    width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .title {
-    font-size: 2.5rem;
-    color: white;
-    margin-top: 150px;
-    text-decoration: overline;
-    text-shadow: 0px 0px 9px #508ad3;
-  }
-  
-  .backgroundCity {
-    background-image: url("https://fondosmil.com/fondo/70849.jpg");
-    background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 150px;
+  text-decoration: overline;
+  text-shadow: 0px 0px 9px #508ad3;
+}
+
+.backgroundCity {
+  background-image: url("https://fondosmil.com/fondo/70849.jpg");
+  background-size: cover;
   background-position: top;
-  }
-  
-  .backgroundCountryside {
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/623/232/3/beautiful-village-wallpaper-preview.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.backgroundCountryside {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/623/232/3/beautiful-village-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: top;
-  }
-  .controls {
-    margin-top: 15vh;
-    display: flex;
-    padding: 3rem;
-  }
-  .controls__options {
-    width: 14rem;
-    padding: 0.5em 0.5em;
-    font-size: 1.5rem;
-    font-weight: 900;
-    border: 1px solid #e78a0f;
-    border-radius: 10px;
-    border: 3px solid #d87606;
-    box-shadow: 0px 0px 11px 12px hsla(0, 14%, 99%, 0.478);
-    color: white;
-    background-color: transparent; 
-    outline: none;
-    cursor: pointer;
-  }
-  
-  option{
-    color: black;
-  }
-  .controls__button {
-font-weight: 900;
-    font-size: 1.5rem;
-    padding: 14px;
-    background-color: transparent;
-    border: 3px solid #d87606;
-    border-radius: 10px;
-    box-shadow: 0px 0px 11px 12px #dfe7e07a;
-    color: white;
-    cursor: pointer;
-    display: block;
-  }
-  
+}
+
+.controls {
+  display: flex;
+  padding: 3rem;
+}
+
+.controls__options {
+  width: 14rem;
+  padding: 0.5em 0.5em;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border: 1px solid #e78a0f;
+  border-radius: 10px;
+  border: 3px solid #d87606;
+  box-shadow: 0px 0px 11px 12px hsla(0, 14%, 99%, 0.478);
+  color: white;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+option {
+  color: black;
+}
+
+.controls__button {
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 14px;
+  background-color: transparent;
+  border: 3px solid #d87606;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px 12px #dfe7e07a;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
